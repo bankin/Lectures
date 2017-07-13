@@ -1,0 +1,223 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,900 ";
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #777;
+}
+
+section {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.solo-wireless div h2,
+.powerbeats div h2 {
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #000;
+}
+
+#wrapper {
+  width: 960px;
+  margin: 20px auto;
+  background-color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li a {
+  color: #777;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #000;
+  border-bottom: 1px solid #777;
+}
+
+.solo-wireless {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.solo-wireless div {
+  width: 35%;
+}
+
+.solo-wireless div h2 {
+    font-size: 35px;
+}
+
+.solo-wireless div p {
+  font-size: 13px;
+  line-height: 27px;
+  margin-bottom: 35px;
+}
+
+.solo-wireless img {
+  width: 60%;
+}
+
+.powerbeats {
+  display: flex;
+  justify-content: space-between;
+  background: lightblue;
+}
+
+.powerbeats img,
+.powerbeats div {
+  flex-basis: 45%;
+}
+
+.powerbeats div {
+  margin: 20px 0;
+  position: relative;
+}
+
+.powerbeats div h2,
+.powerbeats div h5 {
+    font-size: 50px;
+    text-align: right;
+    margin-right: 20px;
+    padding-right: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.powerbeats div h5 {
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.powerbeats div h5 span {
+  font-weight: bold;
+}
+
+.powerbeats div p {
+  font-size: 13px;
+  padding-right: 50px;
+  margin: 40px 0;
+}
+
+.powerbeats .price-buy {
+  position: absolute;
+  bottom: 50px;
+}
+
+.powerbeats .price-buy span {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.try-for-free {
+  background: #777;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  padding-top: 5px;
+}
+
+.try-for-free img {
+  height: 60px;
+  vertical-align: middle;
+}
+
+.try-for-free h3 {
+  font-weight: normal;
+  font-size: 30px;
+}
+
+.try-for-free h3 span {
+  font-weight: bold;
+}
+
+.try-for-free p {
+  display: inline-block;
+  border-bottom: 1px solid #fff;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.give-life {
+  display: flex;
+  padding: 0;
+  background: #aaa;
+}
+
+.give-life img,
+.give-life div {
+  flex-basis: 50%;
+  height: 500px;
+}
+
+.give-life div img {
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+  max-height: 90%;
+}
+
+.give-life div {
+  float: left;
+  padding-left: 20px;
+}
+
+.give-life p {
+  display: block;
+  font-size: 100px;
+  line-height: 100px;
+  letter-spacing: -2px;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000;
+  margin-top: 20px;
+}
+
+.give-life p.beats-red {
+  font-size: 30px;
+  text-transform: none;
+  font-weight: normal;
+}
+
+.give-life p.beats-red span {
+  color: red;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  
+}
+
+.btn {
+  background: red;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 45px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background: darkred;
+}

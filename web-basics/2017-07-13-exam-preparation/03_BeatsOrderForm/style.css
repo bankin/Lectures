@@ -1,0 +1,102 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,900";
+
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#151c6b+0,595959+100 */
+background: #151c6b; /* Old browsers */
+background: -moz-linear-gradient(left, #151c6b 0%, #595959 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #151c6b 0%,#595959 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #151c6b 0%,#595959 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#151c6b', endColorstr='#595959',GradientType=1 ); /* IE6-9 */
+
+  font-family: 'Open Sans';
+
+}
+
+main {
+  height: 475px;
+  width: 860px;
+  margin: 50px auto 0 auto;
+  background: #eee;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px 0px #ddd;
+}
+
+img,
+.content {
+  display: inline-block;
+  vertical-align: top;
+}
+
+img {
+  position: relative;
+  top: -5px;
+  margin-left: 50px;
+  height: 515px;
+}
+
+.content {
+  text-align: right;
+  width: 590px;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+
+.content h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #aaa;
+  font-weight: bold;
+  margin-bottom: 0;
+  padding-top: 20px;
+}
+
+.content p {
+  margin: 0;
+  font-size: 40px;
+  color: #888;
+  font-weight: bold;
+}
+
+.left,
+.right {
+  display: inline-block;
+}
+
+.icon-input {
+  position: relative;
+  margin: 10px auto;
+}
+
+.icon-input i {
+  position: absolute;
+  top: 12px;
+  left: 18px;
+}
+
+.icon-input input {
+  width: 160px;
+  background: 0;
+  border: 0;
+  padding: 10px;
+  padding-left: 45px;
+  border-bottom: 1px solid #444;
+  margin: 0 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+input[type="submit"] {
+  background: #888;
+  border: 0;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: right;
+  margin-top: 20px;
+  cursor: pointer;
+}
