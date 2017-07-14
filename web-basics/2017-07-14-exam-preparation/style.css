@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+#about .container .row::after {
+  content: "";
+  display: block;
+  height: 1px;
+  clear: both;
+  zoom: 1;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+#wrapper {
+  width: 960px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+
+section header {
+  text-align: center;
+  padding-top: 40px;
+}
+
+section header h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+section header p {
+  font-style: italic;
+  color: #777;
+}
+
+#portfolio {
+  background: #ddd;
+  padding: 10px;
+}
+
+#portfolio .container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#portfolio .portfolio-item {
+  width: 250px;
+  background: #fff;
+  margin: 10px 0;
+}
+
+#portfolio .portfolio-item:hover .overlay {
+  display: block;
+}
+
+#portfolio .portfolio-image {
+  position: relative;
+}
+
+#portfolio .portfolio-item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(254, 209, 54, 0.8);
+  cursor: pointer;
+}
+
+#portfolio .portfolio-item .overlay {
+  font-size: 90px;
+  color: #fff;
+  text-align: center;
+  line-height: 184px;
+  font-weight: bold;
+  display: none;
+}
+
+#portfolio .portfolio-item .description {
+  text-align: center;
+  padding: 15px;
+}
+
+#portfolio .portfolio-item .description h4 {
+  margin: 0;
+}
+
+#portfolio .portfolio-item .description p {
+  margin: 0;
+  font-style: italic;
+  font-size: 15px;
+  color: #777;
+}
+
+#about {
+  background: rgba(254, 209, 54, 0.1);
+}
+
+#about .container {
+  position: relative;
+}
+
+#about .container hr {
+  position: absolute;
+  width: 1px;
+  height: 400px;
+  left: 50%;
+  top: 100px;
+  z-index: 1;
+  border: 1px solid #aaa;
+}
+
+#about .container .row {
+  position: relative;
+  text-align: right;
+  z-index: 10;
+  min-width: 200px;
+}
+
+#about .container .row .img {
+  position: relative;
+  left: calc(50% - 60px);
+  top: 0;
+  border-radius: 100px;
+  border: 5px solid #ddd;
+  width: 120px;
+  height: 120px;
+  margin: 20px 0;
+  text-align: center;
+  background: #fed136;
+  color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+  padding-top: 16px;
+}
+
+#about .container .row img {
+  position: absolute;
+  left: calc(50% - 60px);
+  top: 60px;
+  width: 120px;
+  border-radius: 100px;
+  border: 5px solid #ddd;
+}
+
+#about .container .row.right .text-info {
+  float: right;
+  text-align: left;
+  padding: 10px 30px 10px 10px;
+}
+
+#about .container .row .text-info {
+  width: 40%;
+  padding: 10px 10px 10px 30px;
+  line-height: 22px;
+}
+
+#about .container .row .text-info p {
+  font-size: 13px;
+}
+
+#about .container .row .text-info h4 {
+  margin-bottom: 0;
+}
