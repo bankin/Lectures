@@ -10,7 +10,7 @@ public interface UserRepository extends CrudRepository<User, Long> {
 
     @Query("SELECT u FROM Product AS p " +
             "JOIN p.seller AS u " +
-            "WHERE p.buyer IS NOT NULL" +
+            "WHERE p.buyer IS NOT NULL " +
             "ORDER BY u.lastName, u.firstName")
     List<User> getAllSellers();
 }

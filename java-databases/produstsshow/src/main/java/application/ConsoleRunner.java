@@ -42,38 +42,46 @@ public class ConsoleRunner implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        Gson gson = new GsonBuilder()
-                .excludeFieldsWithoutExposeAnnotation()
-                .setPrettyPrinting()
-                .create();
-        ModelMapper mapper = new ModelMapper();
+        callProcedure();
 
-//        parseCategories(gson, mapper);
-//        parseUsers(gson, mapper);
-//        parseProducts(gson, mapper);
+//        Gson gson = new GsonBuilder()
+//                .excludeFieldsWithoutExposeAnnotation()
+//                .setPrettyPrinting()
+//                .create();
+//        ModelMapper mapper = new ModelMapper();
+//
+////        parseCategories(gson, mapper);
+////        parseUsers(gson, mapper);
+////        parseProducts(gson, mapper);
+//
+//        List<Product> products = this.productRepository
+//                .findByPriceBetweenAndBuyerIsNullOrderByPrice(
+//                        new BigDecimal(500), new BigDecimal(1000));
+//
+////        TypeMap<Product, ProductWithSellerDto> typeMap = mapper
+////                .createTypeMap(Product.class, ProductWithSellerDto.class)
+////                .addMapping(
+////                        src -> (src.getSeller().getFirstName() == null ? "" : src.getSeller().getFirstName() + " ") + src.getSeller().getLastName(), ProductWithSellerDto::setSellerName);
+////        ProductWithSellerDto pws = mapper.(typeMap).map(products.get(0), ProductWithSellerDto.class);
+//
+//        List<ProductWithSellerDto> pws =
+//                products
+//                    .stream()
+//                    .map(ProductWithSellerDto::new)
+//                    .collect(Collectors.toList());
+//
+//        System.out.println(gson.toJson(pws));
+//
+//        List<User> users = this.userRepository.getAllSellers();
+//
+//        System.out.println(users.get(0).getLastName());
 
-        List<Product> products = this.productRepository
-                .findByPriceBetweenAndBuyerIsNullOrderByPrice(
-                        new BigDecimal(500), new BigDecimal(1000));
+    }
 
-//        TypeMap<Product, ProductWithSellerDto> typeMap = mapper
-//                .createTypeMap(Product.class, ProductWithSellerDto.class)
-//                .addMapping(
-//                        src -> (src.getSeller().getFirstName() == null ? "" : src.getSeller().getFirstName() + " ") + src.getSeller().getLastName(), ProductWithSellerDto::setSellerName);
-//        ProductWithSellerDto pws = mapper.(typeMap).map(products.get(0), ProductWithSellerDto.class);
+    private void callProcedure() {
+        BigDecimal reyataz = this.productRepository.getPriceForName("REYATAZ");
 
-        List<ProductWithSellerDto> pws =
-                products
-                    .stream()
-                    .map(ProductWithSellerDto::new)
-                    .collect(Collectors.toList());
-
-        System.out.println(gson.toJson(pws));
-
-        List<User> users = this.userRepository.getAllSellers();
-
-        System.out.println(users.get(0).getLastName());
-
+        System.out.println(reyataz);
     }
 
     private void parseCategories(Gson gson, ModelMapper mapper) throws FileNotFoundException {

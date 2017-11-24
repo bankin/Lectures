@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user>
+    <firstName>Pesho</firstName>
+    <lastName>Peshov</lastName>
+    <addresses>
+        <address>
+            <country>Bulgaria</country>
+            <city>Sofia</city>
+        </address>
+        <address>
+            <country>Bulgaria</country>
+            <city>Pernik</city>
+        </address>
+    </addresses>
+</user>
