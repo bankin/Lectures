@@ -19,6 +19,6 @@ public interface ProductRepository extends CrudRepository<Product, Long> {
 //    @Query("CALL get_price_for(:name)")
 //    BigDecimal getPriceForName(@Param("name") String name);
 
-    @Procedure(value = "get_price_for")
-    BigDecimal getPriceForName(@Param("n") String name);
+//    @Procedure(value = "get_price_for")
+//    BigDecimal getPriceForName(@Param("n") String name);
 }

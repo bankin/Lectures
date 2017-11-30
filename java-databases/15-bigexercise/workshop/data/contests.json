@@ -1,0 +1,463 @@
+[
+  {
+    "id":"1",
+    "name": "First Steps in Coding",
+    "category": {
+      "id": "2",
+      "name": "Programming Basics - Exercises"
+    },
+    "allowedStrategies" : [
+      {
+        "name": "PHP Code"
+      },
+      {
+        "name": "C# Code"
+      }
+    ]
+  },
+  {
+    "id":"2",
+    "name": "Simple Calculations",
+    "category": {
+      "id": "2",
+      "name": "Programming Basics - Exercises"
+    },
+    "allowedStrategies" : [
+      {
+        "name": "Java Code"
+      },
+      {
+        "name": "C# Code"
+      }
+    ]
+  },
+  {
+    "id":"3",
+    "name": "Programming Basics Exam - 03 September 2017",
+    "category": {
+      "id": "3",
+      "name": "Programming Basics - Exams"
+    },
+    "allowedStrategies" : [
+      {
+        "name": "Java Code"
+      },
+      {
+        "name": "C# Code"
+      }
+    ]
+  },
+  {
+    "id":"4",
+    "name": "Programming Basics Exam - 17 September 2017",
+    "category": {
+      "id": "3",
+      "name": "Programming Basics - Exams"
+    },
+    "allowedStrategies" : [
+      {
+        "name": "Java Code"
+      },
+      {
+        "name": "C# Code"
+      }
+    ]
+  },
+  {
+    "id":"5",
+    "name": "Programming Basics Exam - 18 October 2015",
+    "category": {
+      "id": "4",
+      "name": "Programming Basics - Old Exams"
+    },
+    "allowedStrategies" : [
+      {
+        "name": "Java Code"
+      },
+      {
+        "name": "C# Code"
+      }
+    ]
+  },
+  {
+    "id":"6",
+    "name": "Programming Basics Exam - 22 October 2015",
+    "category": {
+      "id": "4",
+      "name": "Programming Basics - Old Exams"
+    },
+    "allowedStrategies" : [
+      {
+        "name": "Java Code"
+      },
+      {
+        "name": "C# Code"
+      }
+    ]
+  },
+  {
+    "id":"7",
+    "name": "C# Basic Syntax - Lab",
+    "category": {
+      "id": "6",
+      "name": "Software Technologies"
+    },
+    "allowedStrategies" : [
+      {
+        "name": "Java ZIP File"
+      },
+      {
+        "name": "C# ZIP File"
+      }
+    ]
+  },
+  {
+    "id":"8",
+    "name": "Java Basics - Exercises",
+    "category": {
+      "id": "6",
+      "name": "Software Technologies"
+    },
+    "allowedStrategies" : [
+      {
+        "name": "Java ZIP File"
+      },
+      {
+        "name": "C# ZIP File"
+      }
+    ]
+  },
+  {
+    "id":"9",
+    "name": "Data Types and Variables - Exercises",
+    "category": {
+      "id": "8",
+      "name": "Progr. Fundamentals - Exercises"
+    },
+    "allowedStrategies" : [
+      {
+        "name": "Java ZIP File"
+      },
+      {
+        "name": "C# ZIP File"
+      }
+    ]
+  },
+  {
+    "id":"10",
+    "name": "Methods. Debugging and Troubleshooting Code - Lab",
+    "category": {
+      "id": "8",
+      "name": "Progr. Fundamentals - Exercises"
+    },
+    "allowedStrategies" : [
+      {
+        "name": "Java ZIP File"
+      },
+      {
+        "name": "C# ZIP File"
+      }
+    ]
+  },
+  {
+    "id":"11",
+    "name": "Arrays - Lab",
+    "category": {
+      "id": "8",
+      "name": "Progr. Fundamentals - Exercises"
+    },
+    "allowedStrategies" : [
+      {
+        "name": "Java ZIP File"
+      },
+      {
+        "name": "C# ZIP File"
+      }
+    ]
+  },
+  {
+    "id":"12",
+    "name": "Programming Fundamentals Exam - 09 July 2017 Part 1",
+    "category": {
+      "id": "9",
+      "name": "Progr. Fundamentals - Exams"
+    },
+    "allowedStrategies" : [
+      {
+        "name": "Java ZIP File"
+      },
+      {
+        "name": "C# ZIP File"
+      }
+    ]
+  },
+  {
+    "id":"13",
+    "name": "Programming Fundamentals Exam - 15 July 2017 Part 1",
+    "category": {
+      "id": "9",
+      "name": "Progr. Fundamentals - Exams"
+    },
+    "allowedStrategies" : [
+      {
+        "name": "Java ZIP File"
+      },
+      {
+        "name": "C# ZIP File"
+      }
+    ]
+  },
+  {
+    "id":"14",
+    "name": "C# Conditional Statements and Loops - Exercises",
+    "category": {
+      "id": "10",
+      "name": "Programming Fundamentals Extended - Exercises"
+    },
+    "allowedStrategies" : [
+      {
+        "name": "Java Code"
+      },
+      {
+        "name": "C# Code"
+      }
+    ]
+  },
+  {
+    "id":"15",
+    "name": "Lists - Exercises",
+    "category": {
+      "id": "10",
+      "name": "Programming Fundamentals Extended - Exercises"
+    },
+    "allowedStrategies" : [
+      {
+        "name": "Java Code"
+      },
+      {
+        "name": "C# Code"
+      }
+    ]
+  },
+  {
+    "id":"16",
+    "name": "Lab: CSS Formatting",
+    "category": {
+      "id": "13",
+      "name": "HTML and CSS - Exercises"
+    },
+    "allowedStrategies" : [
+      {
+        "name": "HTML and CSS Zip File (DOM and Mocha)"
+      }
+    ]
+  },
+  {
+    "id":"17",
+    "name": "HTML Structure",
+    "category": {
+      "id": "13",
+      "name": "HTML and CSS - Exercises"
+    },
+    "allowedStrategies" : [
+      {
+        "name": "HTML and CSS Zip File (DOM and Mocha)"
+      }
+    ]
+  },
+  {
+    "id":"18",
+    "name": "Web Basics Exam - 29 October 2017",
+    "category": {
+      "id": "14",
+      "name": "HTML and CSS - Exams"
+    },
+    "allowedStrategies" : [
+      {
+        "name": "HTML and CSS Zip File (DOM and Mocha)"
+      }
+    ]
+  },
+  {
+    "id":"19",
+    "name": "Sets and Dictionaries - Exercise",
+    "category": {
+      "id": "17",
+      "name": "Advanced C#"
+    },
+    "allowedStrategies" : [
+      {
+        "name": "C# Code"
+      }
+    ]
+  },
+  {
+    "id":"20",
+    "name": "Matrices - Exercise",
+    "category": {
+      "id": "17",
+      "name": "Advanced C#"
+    },
+    "allowedStrategies" : [
+      {
+        "name": "C# Code"
+      }
+    ]
+  },
+  {
+    "id":"21",
+    "name": "LINQ - Lab",
+    "category": {
+      "id": "17",
+      "name": "Advanced C#"
+    },
+    "allowedStrategies" : [
+      {
+        "name": "C# Code"
+      }
+    ]
+  },
+  {
+    "id":"22",
+    "name": "Inheritance - Exercise",
+    "category": {
+      "id": "18",
+      "name": "C# OOP Basics"
+    },
+    "allowedStrategies" : [
+      {
+        "name": "C# Code"
+      }
+    ]
+  },
+  {
+    "id":"23",
+    "name": "Polymorphism - Lab",
+    "category": {
+      "id": "18",
+      "name": "C# OOP Basics"
+    },
+    "allowedStrategies" : [
+      {
+        "name": "C# Code"
+      }
+    ]
+  },
+  {
+    "id":"24",
+    "name": "Iterators and Comparators - Lab",
+    "category": {
+      "id": "19",
+      "name": "C# OOP Advanced"
+    },
+    "allowedStrategies" : [
+      {
+        "name": "C# Code"
+      }
+    ]
+  },
+  {
+    "id":"25",
+    "name": "Reflection - Lab",
+    "category": {
+      "id": "19",
+      "name": "C# OOP Advanced"
+    },
+    "allowedStrategies" : [
+      {
+        "name": "C# Code"
+      }
+    ]
+  },
+  {
+    "id":"26",
+    "name": "Triggers and Transactions",
+    "category": {
+      "id": "21",
+      "name": "Databases Basics"
+    },
+    "allowedStrategies" : [
+      {
+        "name": "SQL Server prepare DB & run queries"
+      }
+    ]
+  },
+  {
+    "id":"27",
+    "name": "Data Definition and Datatypes",
+    "category": {
+      "id": "21",
+      "name": "Databases Basics"
+    },
+    "allowedStrategies" : [
+      {
+        "name": "SQL Server run skeleton, Run Queries and Check DB"
+      }
+    ]
+  },
+  {
+    "id":"28",
+    "name": "Advanced Querying",
+    "category": {
+      "id": "22",
+      "name": "Databases Advanced"
+    },
+    "allowedStrategies" : [
+      {
+        "name": "C# Code"
+      }
+    ]
+  },
+  {
+    "id":"29",
+    "name": "OOP Introduction - Inheritance",
+    "category": {
+      "id": "22",
+      "name": "Databases Advanced"
+    },
+    "allowedStrategies" : [
+      {
+        "name": "C# Code"
+      }
+    ]
+  },
+  {
+    "id":"30",
+    "name": "Advanced Querying",
+    "category": {
+      "id": "22",
+      "name": "Databases Advanced"
+    },
+    "allowedStrategies" : [
+      {
+        "name": "C# Code"
+      }
+    ]
+  },
+  {
+    "id":"31",
+    "name": "Web Fundamentals Introduction",
+    "category": {
+      "id": "24",
+      "name": "Web Development Basics"
+    },
+    "allowedStrategies" : [
+      {
+        "name": "C# Code"
+      }
+    ]
+  },
+  {
+    "id":"32",
+    "name": "Web Fundamentals Introduction",
+    "category": {
+      "id": "24",
+      "name": "Web Development Basics"
+    },
+    "allowedStrategies" : [
+      {
+        "name": "C# Code"
+      }
+    ]
+  }
+]

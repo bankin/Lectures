@@ -5,14 +5,14 @@ import java.math.BigDecimal;
 import java.util.List;
 
 @Entity
-@NamedStoredProcedureQueries({
-    @NamedStoredProcedureQuery(name = "get_price_for_name",
-        procedureName = "get_price_for",
-        parameters = {
-            @StoredProcedureParameter(name = "n", type = String.class)
-        }
-    )
-})
+//@NamedStoredProcedureQueries({
+//    @NamedStoredProcedureQuery(name = "get_price_for_name",
+//        procedureName = "get_price_for",
+//        parameters = {
+//            @StoredProcedureParameter(name = "n", type = String.class)
+//        }
+//    )
+//})
 public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

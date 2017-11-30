@@ -1,0 +1,216 @@
+[
+  {
+    "id": "1",
+    "name": "Programming Basics",
+    "category": null,
+    "categories": [
+      {
+        "id": "2",
+        "name": "Programming Basics - Exercises",
+        "category":
+          {
+            "id": "1",
+            "name": "Programming Basics",
+            "category": null
+          }
+      },
+      {
+        "id": "3",
+        "name": "Programming Basics - Exams",
+        "category":
+        {
+          "id": "1",
+          "name": "Programming Basics",
+          "category": null
+        }
+      },
+      {
+        "id": "4",
+        "name": "Programming Basics - Old Exams",
+        "category":
+        {
+          "id": "1",
+          "name": "Programming Basics",
+          "category": {
+            "id": "1",
+            "name": "Programming Basics",
+            "category": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Technologies Fundamentals",
+    "category": null,
+    "categories": [
+      {
+        "id": "6",
+        "name": "Software Technologies",
+        "category": {
+          "id": "5",
+          "name": "Technologies Fundamentals",
+          "category": null
+        }
+      },
+      {
+        "id": "7",
+        "name": "Programming Fundamentals",
+        "category": {
+          "id": "5",
+          "name": "Technologies Fundamentals"
+        },
+        "categories": [
+          {
+            "id": "8",
+            "name": "Progr. Fundamentals - Exercises",
+            "category": {
+              "id": "7",
+              "name": "Programming Fundamentals"
+            }
+          },
+          {
+            "id": "9",
+            "name": "Progr. Fundamentals - Exams",
+            "category":
+            {
+              "id": "7",
+              "name": "Programming Fundamentals"
+            }
+          },
+          {
+            "id": "10",
+            "name": "Programming Fundamentals Extended - Exercises",
+            "category":
+            {
+              "id": "7",
+              "name": "Programming Fundamentals"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "name": "Web Basics",
+    "category": null,
+    "categories": [
+      {
+        "id": "12",
+        "name": "HTML and CSS",
+        "category":
+          {
+            "id": "11",
+            "name": "Web Basics"
+          },
+        "categories": [
+          {
+            "id": "13",
+            "name": "HTML and CSS - Exercises",
+            "category":
+            {
+              "id": "12",
+              "name": "HTML and CSS"
+            }
+          },
+          {
+            "id": "14",
+            "name": "HTML and CSS - Exams",
+            "category":
+              {
+                "id": "12",
+                "name": "HTML and CSS"
+              }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "name": "C# Development",
+    "category": null,
+    "categories": [
+      {
+        "id": "16",
+        "name": "C# Fundamentals",
+        "category": {
+            "id": "15",
+            "name": "C# Development"
+          },
+        "categories": [
+          {
+            "id": "17",
+            "name": "Advanced C#",
+            "category": {
+              "id": "16",
+              "name": "C# Fundamentals"
+            }
+          },
+          {
+            "id": "18",
+            "name": "C# OOP Basics",
+            "category": {
+              "id": "16",
+              "name": "C# Fundamentals"
+            }
+          },
+          {
+            "id": "19",
+            "name": "C# OOP Advanced",
+            "category": {
+              "id": "16",
+              "name": "C# Fundamentals"
+            }
+          }
+        ]
+      },
+      {
+        "id": "20",
+        "name": "C# DB Fundamentals",
+        "category": {
+          "id": "15",
+          "name": "C# Development"
+        },
+        "categories": [
+          {
+            "id": "21",
+            "name": "Databases Basics",
+            "category": {
+              "id": "20",
+              "name": "C# DB Fundamentals"
+            }
+          },
+          {
+            "id": "22",
+            "name": "Databases Advanced",
+            "category": {
+              "id": "20",
+              "name": "C# DB Fundamentals"
+            }
+          }
+        ]
+      },
+      {
+        "id": "23",
+        "name": "C# Web Development",
+        "category": {
+          "id": "15",
+          "name": "C# Development"
+        },
+        "categories": [
+          {
+            "id": "24",
+            "name": "Web Development Basics",
+            "category": {
+              "id": "23",
+              "name": "C# Web Development"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

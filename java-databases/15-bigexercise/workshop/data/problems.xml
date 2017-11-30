@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+    <problem>
+        <id>
+            1
+        </id>
+        <name>Office Hunting</name>
+        <contest>
+            <id>3</id>
+        </contest>
+    </problem>
+    <problem>
+        <id>
+            2
+        </id>
+        <name>Softuni Coffee Games</name>
+        <contest>
+            <id>3</id>
+        </contest>
+    </problem>
+    <problem>
+        <id>
+           3
+        </id>
+        <name>Gamebar Lost Treasures</name>
+        <contest>
+            <id>5</id>
+        </contest>
+    </problem>
+    <problem>
+        <id>
+            4
+        </id>
+        <name>Reflection Detection</name>
+        <contest>
+            <id>7</id>
+        </contest>
+    </problem>
+    <problem>
+        <id>
+            5
+        </id>
+        <name>Dependency Emergency</name>
+        <contest>
+            <id>7</id>
+        </contest>
+    </problem>
+</problems>

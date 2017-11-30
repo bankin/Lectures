@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+    <user>
+        <id>1</id>
+        <username>wild_user</username>
+    </user>
+    <user>
+        <id>2</id>
+        <username>MR_PRODUCER</username>
+    </user>
+    <user>
+        <id>3</id>
+        <username>R.Manolova</username>
+    </user>
+    <user>
+        <id>4</id>
+        <username>NiyaK</username>
+    </user>
+    <user>
+        <id>5</id>
+        <username>DimitarYordanov00</username>
+    </user>
+    <user>
+        <id>6</id>
+        <username>IvoPV</username>
+    </user>
+    <user>
+        <id>7</id>
+        <username>toshinto</username>
+    </user>
+    <user>
+        <id>8</id>
+        <username>Maria1609</username>
+    </user>
+</users>

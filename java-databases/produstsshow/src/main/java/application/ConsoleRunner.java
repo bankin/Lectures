@@ -16,6 +16,7 @@ import org.modelmapper.ModelMapper;
 import org.modelmapper.TypeMap;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.data.jpa.repository.query.Procedure;
 import org.springframework.stereotype.Component;
 
 import java.io.FileNotFoundException;
@@ -42,46 +43,46 @@ public class ConsoleRunner implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        callProcedure();
+//        callProcedure();
 
-//        Gson gson = new GsonBuilder()
-//                .excludeFieldsWithoutExposeAnnotation()
-//                .setPrettyPrinting()
-//                .create();
-//        ModelMapper mapper = new ModelMapper();
-//
-////        parseCategories(gson, mapper);
-////        parseUsers(gson, mapper);
-////        parseProducts(gson, mapper);
-//
-//        List<Product> products = this.productRepository
-//                .findByPriceBetweenAndBuyerIsNullOrderByPrice(
-//                        new BigDecimal(500), new BigDecimal(1000));
-//
-////        TypeMap<Product, ProductWithSellerDto> typeMap = mapper
-////                .createTypeMap(Product.class, ProductWithSellerDto.class)
-////                .addMapping(
-////                        src -> (src.getSeller().getFirstName() == null ? "" : src.getSeller().getFirstName() + " ") + src.getSeller().getLastName(), ProductWithSellerDto::setSellerName);
-////        ProductWithSellerDto pws = mapper.(typeMap).map(products.get(0), ProductWithSellerDto.class);
-//
+        Gson gson = new GsonBuilder()
+                .excludeFieldsWithoutExposeAnnotation()
+                .setPrettyPrinting()
+                .create();
+        ModelMapper mapper = new ModelMapper();
+
+//        parseCategories(gson, mapper);
+//        parseUsers(gson, mapper);
+//        parseProducts(gson, mapper);
+
+        List<Product> products = this.productRepository
+                .findByPriceBetweenAndBuyerIsNullOrderByPrice(
+                        new BigDecimal(500), new BigDecimal(1000));
+
+        TypeMap<Product, ProductWithSellerDto> typeMap = mapper
+                .createTypeMap(Product.class, ProductWithSellerDto.class)
+                .addMapping(
+                        src -> (src.getSeller().getFirstName() == null ? "" : src.getSeller().getFirstName() + " ") + src.getSeller().getLastName(), ProductWithSellerDto::setSellerName);
+        ProductWithSellerDto pws = mapper.map(products.get(0), ProductWithSellerDto.class, typeMap.getName());
+
 //        List<ProductWithSellerDto> pws =
 //                products
 //                    .stream()
 //                    .map(ProductWithSellerDto::new)
 //                    .collect(Collectors.toList());
-//
-//        System.out.println(gson.toJson(pws));
-//
-//        List<User> users = this.userRepository.getAllSellers();
-//
-//        System.out.println(users.get(0).getLastName());
+
+        System.out.println(gson.toJson(pws));
+
+        List<User> users = this.userRepository.getAllSellers();
+
+        System.out.println(users.get(0).getLastName());
 
     }
 
     private void callProcedure() {
-        BigDecimal reyataz = this.productRepository.getPriceForName("REYATAZ");
+//        BigDecimal reyataz = this.productRepository.getPriceForName("REYATAZ");
 
-        System.out.println(reyataz);
+//        System.out.println(reyataz);
     }
 
     private void parseCategories(Gson gson, ModelMapper mapper) throws FileNotFoundException {
