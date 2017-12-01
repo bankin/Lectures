@@ -1,16 +1,10 @@
 package softuni.judgesystem.dtos.json;
 
-//"id": "1",
-//        "name": "Programming Basics",
-//        "category": null,
-//        "categories": [
-
 import com.google.gson.annotations.Expose;
 
 import java.util.Set;
 
 public class CategoryDto {
-    @Expose
     private Long id;
 
     @Expose

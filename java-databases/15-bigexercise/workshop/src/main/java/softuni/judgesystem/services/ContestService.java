@@ -7,6 +7,7 @@ import softuni.judgesystem.domain.User;
 import softuni.judgesystem.repositories.ContestRepository;
 import softuni.judgesystem.repositories.UserRepository;
 
+import java.util.Objects;
 import java.util.Optional;
 
 @Service
@@ -44,11 +45,11 @@ public class ContestService {
 
         Optional<Contest> first = user.getContestsParticipated()
                 .stream()
-                .filter(c -> c.equals(contest))
+                .filter(c -> c.getId().equals(contest.getId()))
                 .findFirst();
 
         if (first.isPresent()) {
-            throw new RuntimeException("Used already has enrolled to this contest");
+            throw new RuntimeException("User already has enrolled to this contest");
         }
 
         user.addContestParticipation(contest);

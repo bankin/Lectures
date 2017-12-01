@@ -15,18 +15,6 @@
     <participation>
         <contest>
             <id>
-                1
-            </id>
-        </contest>
-        <user>
-            <id>
-                7
-            </id>
-        </user>
-    </participation>
-    <participation>
-        <contest>
-            <id>
                 2
             </id>
         </contest>
@@ -57,6 +45,42 @@
         <user>
             <id>
                 7
+            </id>
+        </user>
+    </participation>
+    <participation>
+        <contest>
+            <id>
+                3
+            </id>
+        </contest>
+        <user>
+            <id>
+                1
+            </id>
+        </user>
+    </participation>
+    <participation>
+        <contest>
+            <id>
+                3
+            </id>
+        </contest>
+        <user>
+            <id>
+                2
+            </id>
+        </user>
+    </participation>
+    <participation>
+        <contest>
+            <id>
+                5
+            </id>
+        </contest>
+        <user>
+            <id>
+                2
             </id>
         </user>
     </participation>

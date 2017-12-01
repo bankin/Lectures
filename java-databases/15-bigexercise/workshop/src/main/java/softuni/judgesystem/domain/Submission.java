@@ -1,5 +1,7 @@
 package softuni.judgesystem.domain;
 
+import softuni.judgesystem.dtos.xml.submissions.SubmissionDto;
+
 import javax.persistence.*;
 import javax.validation.constraints.Digits;
 import javax.xml.bind.annotation.XmlAccessType;
@@ -17,6 +19,11 @@ public class Submission {
     private Strategy usedStrategy;
 
     public Submission() {
+    }
+
+    public Submission(SubmissionDto submissionDto) {
+        this.performance = submissionDto.getPerformance();
+        this.points = submissionDto.getPoints();
     }
 
     @Id

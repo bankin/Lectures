@@ -2,7 +2,7 @@
 <users>
     <user>
         <id>1</id>
-        <username>wild_user</username>
+        <username id="at">wild_user</username>
     </user>
     <user>
         <id>2</id>

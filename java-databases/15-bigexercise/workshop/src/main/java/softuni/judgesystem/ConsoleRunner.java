@@ -14,12 +14,18 @@ import softuni.judgesystem.dtos.json.CategoryDto;
 import softuni.judgesystem.dtos.json.ContestDto;
 import softuni.judgesystem.dtos.json.StrategyDto;
 import softuni.judgesystem.dtos.json.UserDto;
+import softuni.judgesystem.dtos.xml.participations.UserParticipation;
 import softuni.judgesystem.dtos.xml.participations.UsersParticipationsDto;
+import softuni.judgesystem.dtos.xml.problems.ProblemsDto;
+import softuni.judgesystem.dtos.xml.submissions.SubmissionDto;
+import softuni.judgesystem.dtos.xml.submissions.SubmissionsDto;
 import softuni.judgesystem.repositories.CategoryRepository;
 import softuni.judgesystem.repositories.ContestRepository;
 import softuni.judgesystem.repositories.StrategyRepository;
 import softuni.judgesystem.repositories.UserRepository;
 import softuni.judgesystem.services.ContestService;
+import softuni.judgesystem.services.ProblemService;
+import softuni.judgesystem.services.SubmissionService;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
@@ -27,9 +33,7 @@ import javax.xml.bind.Unmarshaller;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.Collectors;
 
 @Component
@@ -43,14 +47,18 @@ public class ConsoleRunner implements CommandLineRunner {
     private ContestRepository contestRepository;
     private UserRepository userRepository;
     private ContestService contestService;
+    private SubmissionService submissionService;
+    private ProblemService problemService;
 
     @Autowired
-    public ConsoleRunner(CategoryRepository categoryRepository, StrategyRepository strategyRepository, ContestRepository contestRepository, UserRepository userRepository, ContestService contestService) {
+    public ConsoleRunner(CategoryRepository categoryRepository, StrategyRepository strategyRepository, ContestRepository contestRepository, UserRepository userRepository, ContestService contestService, SubmissionService submissionService, ProblemService problemService) {
         this.categoryRepository = categoryRepository;
         this.strategyRepository = strategyRepository;
         this.contestRepository = contestRepository;
         this.userRepository = userRepository;
         this.contestService = contestService;
+        this.submissionService = submissionService;
+        this.problemService = problemService;
 
         this.gson = new GsonBuilder()
                 .excludeFieldsWithoutExposeAnnotation()
@@ -67,6 +75,35 @@ public class ConsoleRunner implements CommandLineRunner {
         importContests();
         importUsers();
         importParticipants();
+        importProblems();
+        importSubmissions();
+    }
+
+    private void importSubmissions() throws JAXBException {
+        JAXBContext participantContext = JAXBContext.newInstance(SubmissionsDto.class);
+        Unmarshaller unmarshaller = participantContext.createUnmarshaller();
+
+        SubmissionsDto dto =
+            (SubmissionsDto)
+                unmarshaller.unmarshal(
+                    new File("data/submissions.xml"));
+
+
+        List<SubmissionDto> submissionsList = dto.getSubmissionDtoList();
+
+        submissionsList
+            .forEach(e -> this.submissionService.submit(e));
+    }
+
+    private void importProblems() throws JAXBException {
+        JAXBContext context = JAXBContext.newInstance(ProblemsDto.class);
+        Unmarshaller unmarshaller = context.createUnmarshaller();
+
+        ProblemsDto dto =
+            (ProblemsDto)
+                unmarshaller.unmarshal(new File("data/problems.xml"));
+
+        this.problemService.saveAll(dto.getProblemDtoList());
     }
 
     private void importParticipants() throws JAXBException {
@@ -77,7 +114,11 @@ public class ConsoleRunner implements CommandLineRunner {
                 (UsersParticipationsDto)
                     unmarshaller.unmarshal(new File("data/user_participations.xml"));
 
-        System.out.println(dto.getParticipationList().get(0).getUserId().getId());
+        List<UserParticipation> participationList = dto.getParticipationList();
+
+        participationList
+            .forEach(e ->
+                this.contestService.enrollUserId(e.getContestId().getId(), e.getUserId().getId()));
     }
 
     private void importUsers() throws FileNotFoundException {
@@ -106,7 +147,7 @@ public class ConsoleRunner implements CommandLineRunner {
 
             Category category =
                     this.categoryRepository
-                            .findOne(contestDto.getCategory().getId());
+                            .findByName(contestDto.getCategory().getName());
             contest.setCategory(category);
 
             this.contestRepository.save(contest);
@@ -136,7 +177,7 @@ public class ConsoleRunner implements CommandLineRunner {
     }
 
 
-    private void importCategories() throws FileNotFoundException {
+    private void importCategories() throws FileNotFoundException, InterruptedException {
         CategoryDto[] categoryDtos = gson.fromJson(
                 new FileReader("data/categories.json"),
                 CategoryDto[].class);
@@ -148,44 +189,32 @@ public class ConsoleRunner implements CommandLineRunner {
 
         for (Category parent : categories) {
             saveAllWithoutRelations(parent.getCategories(), parent);
-            this.categoryRepository.flush();
         }
 
-
-
-//        List<Category> fromDb = this.categoryRepository.findAll();
-//
-//        for (CategoryDto dto: categoryDtos) {
-//            updateRelations(fromDb, dto.getCategories(), dto);
-//        }
+        for (CategoryDto dto: categoryDtos) {
+            updateRelations(dto.getCategories(), dto);
+        }
     }
 
-//    private void updateRelations(List<Category> fromDb, Set<CategoryDto> categories, CategoryDto dto) {
-//        if (categories == null) return;
-//
-//        for (CategoryDto cat : categories) {
-//            updateRelations(fromDb, cat.getCategories(), cat);
-//
-//            Optional<Category> child = fromDb
-//                    .stream()
-//                    .filter(c -> c.getId() == cat.getId())
-//                    .findFirst();
-//
-//            Optional<Category> parent = fromDb
-//                    .stream()
-//                    .filter(c -> c.getId() == dto.getId())
-//                    .findFirst();
-//
-//            Category childCat = child.get();
-//
-//            childCat.setCategory(parent.get());
-//
-//            this.categoryRepository.save(childCat);
-//        }
-//
-//    }
+    private void updateRelations(Set<CategoryDto> categories, CategoryDto dto) {
+        if (categories == null) return;
 
-    private void saveAllWithoutRelations(Set<Category> categories, Category parent) {
+        Category parent = this.categoryRepository.findByName(dto.getName());
+
+        List<String> nameList = categories
+                .stream()
+                .map(CategoryDto::getName)
+                .collect(Collectors.toList());
+
+        this.categoryRepository.updateParentForCategoryNames(nameList, parent);
+
+        for (CategoryDto cat : categories) {
+            updateRelations(cat.getCategories(), cat);
+        }
+
+    }
+
+    private void saveAllWithoutRelations(Set<Category> categories, Category parent) throws InterruptedException {
         parent.setCategories(null);
         parent.setCategory(null);
         this.categoryRepository.save(parent);

@@ -94,4 +94,12 @@ public class User {
     public void addContestParticipation(Contest contest) {
         this.contestsParticipated.add(contest);
     }
+
+    public void addMaxResultForProblem(UserMaxResultPerProblem maxResult) {
+        this.problemsMaxResults.add(maxResult);
+    }
+
+    public void addMaxResultForContest(UserMaxResultPerContest userMaxResultPerContest) {
+        this.contestsMaxResults.add(userMaxResultPerContest);
+    }
 }
