@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="f4bfa47d-9c4b-445b-a28e-2c375e4f56cc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/masdefect/config/Config.java" afterPath="$PROJECT_DIR$/src/main/java/com/masdefect/config/Config.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/masdefect/controller/SolarSystemController.java" afterPath="$PROJECT_DIR$/src/main/java/com/masdefect/controller/SolarSystemController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/json/SolarSystemImportJSONDto.java" afterPath="$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/json/SolarSystemImportJSONDto.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/masdefect/domain/entities/Anomaly.java" afterPath="$PROJECT_DIR$/src/main/java/com/masdefect/domain/entities/Anomaly.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/masdefect/domain/entities/Person.java" afterPath="$PROJECT_DIR$/src/main/java/com/masdefect/domain/entities/Person.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/masdefect/domain/entities/Planet.java" afterPath="$PROJECT_DIR$/src/main/java/com/masdefect/domain/entities/Planet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/masdefect/domain/entities/SolarSystem.java" afterPath="$PROJECT_DIR$/src/main/java/com/masdefect/domain/entities/SolarSystem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/masdefect/domain/entities/Star.java" afterPath="$PROJECT_DIR$/src/main/java/com/masdefect/domain/entities/Star.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/masdefect/io/ConsoleIOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/masdefect/io/ConsoleIOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/masdefect/io/FIleIOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/masdefect/io/FIleIOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/masdefect/parser/JSONParser.java" afterPath="$PROJECT_DIR$/src/main/java/com/masdefect/parser/JSONParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/masdefect/parser/ModelParserImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/masdefect/parser/ModelParserImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/masdefect/terminal/Terminal.java" afterPath="$PROJECT_DIR$/src/main/java/com/masdefect/terminal/Terminal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-    </list>
+    <list default="true" readonly="true" id="f4bfa47d-9c4b-445b-a28e-2c375e4f56cc" name="Default" comment="" />
     <ignored path="mas-defect-solution.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -60,42 +44,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PersonsController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/controller/PersonsController.java">
+      <file leaf-file-name="AnomalyController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/controller/AnomalyController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="292">
+              <caret line="85" column="32" lean-forward="true" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConsoleIOImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/io/ConsoleIOImpl.java">
+      <file leaf-file-name="AnomalyExportJSONDto.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/json/AnomalyExportJSONDto.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FIleIOImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/io/FIleIOImpl.java">
+      <file leaf-file-name="AnomalyServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/service/impls/AnomalyServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JSONParser.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/parser/JSONParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="319">
+              <caret line="102" column="61" lean-forward="false" selection-start-line="102" selection-start-column="54" selection-end-line="102" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3702#3913#0" expanded="true" />
+                <element signature="e#3912#3913#0" expanded="true" />
+                <element signature="e#4144#4145#0" expanded="true" />
+                <element signature="e#4171#4172#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,6 +100,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>PhotoWorkshopsApp</find>
+      <find>Jos</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -124,57 +111,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/data_import/AllVictimsImported.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/files/json/zero_tests/anomalies_with_non_existing_planets.json" />
-        <option value="$PROJECT_DIR$/src/test/java/data_import/zero_tests/ImportStarsWithFakeInfo.java" />
-        <option value="$PROJECT_DIR$/src/test/java/data_import/zero_tests/ImportAnomaliesWithNonExistingPlanets.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/files/json/zero_tests/stars_with_invalid_info.json" />
-        <option value="$PROJECT_DIR$/src/test/java/data_import/zero_tests/ImportStarsWithInvalidInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/controller/AnomalyVictimsController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/controller/PersonsController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/controller/StarsController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/json/AnomalyExportJSONDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/json/AnomalyImportJSONDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/json/AnomalyVictimsJSONDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/json/PersonExportJSONDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/json/PersonImportJSONDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/json/PlanetExportJSONDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/json/PlanetImportJSONDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/json/StarImportJSONDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/xml/AnomaliesXMLDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/xml/AnomalyXMLDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/xml/VictimXMLDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/io/interfaces/ConsoleIO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/repository/AnomalyRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/repository/PersonRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/repository/PlanetRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/repository/StarRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/service/PlanetService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/serviceImpl/AnomalyServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/massdefect/parser/interfaces/FileParser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/parser/interfaces/FileParser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/parser/XMLParser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/controller/PlanetsController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/controller/AnomalyController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/masdefect/domain/entities/SolarSystem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/domain/entities/Star.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/domain/entities/Anomaly.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/domain/entities/Planet.java" />
         <option value="$USER_HOME$/AppData/Local/Temp/Temp1_Submission_5806451.zip/src/main/java/com/masdefect/domain/entities/Planet.java" />
         <option value="$PROJECT_DIR$/src/test/java/ManyToOne.java" />
         <option value="$PROJECT_DIR$/src/test/java/PlanetManyToOneRelationsBothSides.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/domain/entities/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/masdefect/io/ConsoleIOImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/repository/SolarSystemRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/json/SolarSystemImportJSONDto.java" />
+        <option value="$PROJECT_DIR$/src/test/java/asd.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/parser/interfaces/FileParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/service/impl/SolarServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/AllSolarSystemsImportedOutput.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/files/json/input/solar-systems.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/masdefect/controller/SolarSystemController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/masdefect/io/FIleIOImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/terminal/Terminal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/json/SolarSystemImportJSONDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/json/StarImportJSONDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/domain/entities/Star.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/repository/SolarSystemRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/service/StarService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/json/PlanetImportJSONDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/repository/StarRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/domain/entities/Planet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/service/PlanetService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/service/impls/StarServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/controller/StarsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/config/Config.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/json/PersonImportJSONDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/service/impls/PersonServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/controller/PersonsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/json/AnomalyImportJSONDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/domain/entities/Anomaly.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/domain/entities/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/json/AnomalyVictimsJSONDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/repository/PersonRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/files/json/input/persons.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/controller/AnomalyVictimsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/parser/XMLParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/xml/AnomaliesXMLDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/xml/VictimXMLDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/xml/AnomalyXMLDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/repository/PlanetRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/service/impls/PlanetServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/controller/PlanetsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/json/PlanetExportJSONDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/masdefect/parser/JSONParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/masdefect/parser/ModelParserImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/asd.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/config/Config.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/terminal/Terminal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/repository/AnomalyRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/json/AnomalyExportJSONDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/controller/AnomalyController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masdefect/service/impls/AnomalyServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -209,12 +196,13 @@
       <hideEmptyPackages ProjectPane="false" />
       <abbreviatePackageNames />
       <autoscrollToSource />
-      <autoscrollFromSource />
+      <autoscrollFromSource ProjectPane="true" />
       <sortByType />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -304,6 +292,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="masdefect" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mas-defect-solution - skeleton" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mas-defect-solution - skeleton" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="masdefect" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
               <item name="entities" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -369,6 +368,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="masdefect" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impls" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mas-defect-solution - skeleton" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mas-defect-solution - skeleton" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="masdefect" type="462c0819:PsiDirectoryNode" />
               <item name="terminal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -380,52 +389,87 @@
             </path>
             <path>
               <item name="mas-defect-solution - skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mas-defect-solution - skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="mas-defect-solution - skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mas-defect-solution - skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-              <item name="input" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.google.code.gson:gson:2.7" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="mas-defect-solution - skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mas-defect-solution - skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.google.code.gson:gson:2.7" type="70bed36:NamedLibraryElementNode" />
+              <item name="gson-2.7.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mas-defect-solution - skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mas-defect-solution - skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.google.code.gson:gson:2.7" type="70bed36:NamedLibraryElementNode" />
+              <item name="gson-2.7.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="gson" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mas-defect-solution - skeleton" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.modelmapper:modelmapper:1.1.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="mas-defect-solution - skeleton" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.modelmapper:modelmapper:1.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="modelmapper-1.1.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mas-defect-solution - skeleton" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.modelmapper:modelmapper:1.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="modelmapper-1.1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="modelmapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mas-defect-solution - skeleton" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-jpa:1.10.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="mas-defect-solution - skeleton" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-jpa:1.10.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-jpa-1.10.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mas-defect-solution - skeleton" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-jpa:1.10.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-jpa-1.10.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mas-defect-solution - skeleton" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-jpa:1.10.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-jpa-1.10.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../java-databases/Sept-2017/Database-Frameworks/17.DB-Advanced-Exam-Preparation-2/mas-defect-solution" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="con&#9;FILE&#9;file://E:/softuni/java-databases/Sept-2017/Database-Frameworks/17.DB-Advanced-Exam-Preparation-2/mas-defect-solution - skeleton/src/main/java/com/masdefect/config/Config.java&#10;PhotoWorkshopsApp&#9;null&#9;null&#10;database&#9;ACTION&#9;ActivateDatabaseToolWindow" />
+    <property name="SearchEverywhereHistoryKey" value="AnomalySer&#9;FILE&#9;file://E:/softuni/Lectures/java-databases/17-exam-preparation/mas-defect-solution - skeleton/src/main/java/com/masdefect/service/AnomalyService.java&#10;Person&#9;PSI&#9;JAVA://com.masdefect.domain.entities.Person&#10;Per&#9;FILE&#9;file://E:/softuni/Lectures/java-databases/17-exam-preparation/mas-defect-solution - skeleton/src/main/java/com/masdefect/service/impls/PersonServiceImpl.java&#10;Plane&#9;FILE&#9;file://E:/softuni/Lectures/java-databases/17-exam-preparation/mas-defect-solution - skeleton/src/main/java/com/masdefect/controller/PlanetsController.java&#10;Star&#9;FILE&#9;file://E:/softuni/Lectures/java-databases/17-exam-preparation/mas-defect-solution - skeleton/src/main/java/com/masdefect/service/impls/StarServiceImpl.java&#10;tERMO&#9;PSI&#9;JAVA://javax.management.monitor.CounterMonitor.CounterMonitorObservedObject&#10;Solar&#9;FILE&#9;file://E:/softuni/Lectures/java-databases/17-exam-preparation/mas-defect-solution - skeleton/src/main/java/com/masdefect/repository/SolarSystemRepository.java&#10;Ter&#9;FILE&#9;file://E:/softuni/Lectures/java-databases/17-exam-preparation/mas-defect-solution - skeleton/src/main/java/com/masdefect/terminal/Terminal.java&#10;Termina&#9;FILE&#9;file://E:/softuni/Lectures/java-databases/17-exam-preparation/mas-defect-solution - skeleton/src/main/java/com/masdefect/terminal/Terminal.java&#10;con&#9;FILE&#9;file://E:/softuni/java-databases/Sept-2017/Database-Frameworks/17.DB-Advanced-Exam-Preparation-2/mas-defect-solution - skeleton/src/main/java/com/masdefect/config/Config.java&#10;PhotoWorkshopsApp&#9;null&#9;null&#10;database&#9;ACTION&#9;ActivateDatabaseToolWindow" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -434,8 +478,12 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/structure/data_import" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.masdefect.service.impls" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -482,6 +530,26 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="AllSolarSystemsImportedOutput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="mas-defect-solution" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AllSolarSystemsImportedOutput" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="ImportStarsWithInvalidInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -496,31 +564,6 @@
       <option name="MAIN_CLASS_NAME" value="data_import.zero_tests.ImportStarsWithInvalidInfo" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="ImportStarsWithInvalidInfo.testInsertWithInvalidInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="data_import.zero_tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="mas-defect-solution" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="data_import.zero_tests" />
-      <option name="MAIN_CLASS_NAME" value="data_import.zero_tests.ImportStarsWithInvalidInfo" />
-      <option name="METHOD_NAME" value="testInsertWithInvalidInfo" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -980,18 +1023,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.ImportStarsWithInvalidInfo" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ImportStarsWithInvalidInfo.testInsertWithInvalidInfo" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MainApplication" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PlanetManyToOneRelationsBothSides.testManyToOneRelations" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.AllSolarSystemsImportedCount" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MainApplication" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PlanetManyToOneRelationsBothSides.testManyToOneRelations" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AllSolarSystemsImportedCount" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AllSolarSystemsImportedOutput" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.MainApplication" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AllSolarSystemsImportedCount" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PlanetManyToOneRelationsBothSides.testManyToOneRelations" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ImportStarsWithInvalidInfo" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ImportStarsWithInvalidInfo.testInsertWithInvalidInfo" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AllSolarSystemsImportedOutput" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AllSolarSystemsImportedCount" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PlanetManyToOneRelationsBothSides.testManyToOneRelations" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ImportStarsWithInvalidInfo" />
       </list>
     </recent_temporary>
   </component>
@@ -1006,28 +1049,6 @@
   <component name="SvnConfiguration" cleanupOnStartRun="true">
     <configuration>C:\Users\Bankin\AppData\Roaming\Subversion</configuration>
     <supportedVersion>125</supportedVersion>
-  </component>
-  <component name="SvnFileUrlMappingImpl">
-    <option name="myMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="E:\softuni\java-databases\Sept-2017\Database-Frameworks\17.DB-Advanced-Exam-Preparation-2\mas-defect-solution - skeleton" />
-          <option name="myCopyRoot" value="E:\softuni\java-databases\Sept-2017\Database-Frameworks\17.DB-Advanced-Exam-Preparation-2\mas-defect-solution - skeleton" />
-        </SvnCopyRootSimple>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="E:\softuni\java-databases\Sept-2017\Database-Frameworks\17.DB-Advanced-Exam-Preparation-2\mas-defect-solution - skeleton\.idea" />
-          <option name="myCopyRoot" value="E:\softuni\java-databases\Sept-2017\Database-Frameworks\17.DB-Advanced-Exam-Preparation-2\mas-defect-solution - skeleton\.idea" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
-    <option name="myMoreRealMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="E:\softuni\java-databases\Sept-2017\Database-Frameworks\17.DB-Advanced-Exam-Preparation-2\mas-defect-solution - skeleton" />
-          <option name="myCopyRoot" value="E:\softuni\java-databases\Sept-2017\Database-Frameworks\17.DB-Advanced-Exam-Preparation-2\mas-defect-solution - skeleton" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -1045,14 +1066,14 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AllSolarSystemsImportedCount - 2017.12.07 at 20h 37m 46s.xml">
+    <history-entry file="AllSolarSystemsImportedCount - 2017.12.08 at 11h 59m 26s.xml">
       <configuration name="AllSolarSystemsImportedCount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AllSolarSystemsImportedCount - 2017.12.07 at 20h 39m 02s.xml">
-      <configuration name="AllSolarSystemsImportedCount" configurationId="JUnit" />
+    <history-entry file="AllSolarSystemsImportedOutput - 2017.12.08 at 12h 00m 03s.xml">
+      <configuration name="AllSolarSystemsImportedOutput" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AllSolarSystemsImportedCount - 2017.12.07 at 20h 39m 17s.xml">
-      <configuration name="AllSolarSystemsImportedCount" configurationId="JUnit" />
+    <history-entry file="AllSolarSystemsImportedOutput - 2017.12.08 at 12h 00m 48s.xml">
+      <configuration name="AllSolarSystemsImportedOutput" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ImportStarsWithInvalidInfo_testInsertWithInvalidInfo - 2017.12.07 at 11h 47m 54s.xml">
       <configuration name="ImportStarsWithInvalidInfo.testInsertWithInvalidInfo" configurationId="JUnit" />
@@ -1084,7 +1105,7 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281412" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1092,7 +1113,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21058434" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21278942" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281412" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1184,18 +1205,15 @@
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/masdefect/controller/AnomalyController.java</url>
-          <line>12</line>
-          <properties />
-          <option name="timeStamp" value="66" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="87" />
+      <option name="time" value="104" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="inverseField.getDeclaredFields();" language="JAVA" />
+      </configuration>
+      <configuration name="Application">
+        <watch expression="this.modelMapper" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
@@ -1204,92 +1222,66 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/files/json/output/anomalies.json" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/files/json/output/persons.json" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/files/json/output/planets.json" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/service/StarService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/files/json/input/solar-systems.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="110">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/service/SolarSystemService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/json/StarImportJSONDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/service/PlanetService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/service/PersonService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/service/AnomalyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/controller/AnomalyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        <state relative-caret-position="406">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#448#449#0" expanded="false" />
-            <element signature="e#474#475#0" expanded="false" />
-            <element signature="e#520#521#0" expanded="false" />
-            <element signature="e#547#548#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/controller/AnomalyVictimsController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/files/json/input/stars.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/json/PersonExportJSONDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/json/AnomalyExportJSONDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar!/javax/persistence/GenerationType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        <state relative-caret-position="66">
+          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar!/javax/persistence/Entity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/domain/entities/SolarSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="30" column="39" lean-forward="false" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="43" />
-          <folding />
+        <state relative-caret-position="154">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/controller/SolarSystemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/domain/entities/Star.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1301,210 +1293,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Planet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Submission_5806451.zip/src/main/java/com/masdefect/domain/entities/Planet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Star.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/json/PlanetImportJSONDto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PlanetManyToOneRelationsBothSides.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="39" column="52" lean-forward="false" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/domain/entities/Planet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/repository/StarRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1304#1305#0" expanded="true" />
-            <element signature="e#1333#1334#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/MainApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        <state relative-caret-position="132">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/files/json/input/anomaly-victims.json">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/service/StarService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/files/json/input/anomalies.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/files/json/input/persons.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/files/json/input/planets.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/files/json/input/stars.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/domain/entities/Anomaly.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="52" column="5" lean-forward="false" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1094#1095#0" expanded="true" />
-            <element signature="e#1132#1133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/domain/entities/SolarSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/domain/entities/Star.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/domain/entities/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#885#886#0" expanded="true" />
-            <element signature="e#917#918#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/parser/XMLParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/parser/interfaces/ModelParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
+        <state relative-caret-position="88">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/parser/interfaces/FileParser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/service/impls/StarServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/stream/Collectors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="103" column="19" lean-forward="false" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/files/json/input/solar-systems.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/json/SolarSystemImportJSONDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="-16">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/config/Config.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/files/json/input/planets.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="61" lean-forward="false" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+        <state relative-caret-position="220">
+          <caret line="10" column="81" lean-forward="true" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AllSolarSystemsImportedCount.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/controller/StarsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="39" column="52" lean-forward="false" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+        <state relative-caret-position="318">
+          <caret line="45" column="33" lean-forward="false" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1513,112 +1360,388 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/repository/SolarSystemRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="176">
+          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/terminal/Terminal.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/json/PersonImportJSONDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/controller/SolarSystemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="33" />
+        <state relative-caret-position="308">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/repository/AnomalyRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/service/PersonService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" column="65" lean-forward="false" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/repository/PlanetRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/repository/StarRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/controller/PlanetsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding>
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/repository/PersonRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="154">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/controller/PersonsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="354">
+          <caret line="38" column="67" lean-forward="false" selection-start-line="38" selection-start-column="67" selection-end-line="38" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/json/AnomalyImportJSONDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/service/impls/PersonServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="33" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/domain/entities/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/io/ConsoleIOImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/json/AnomalyVictimsJSONDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/files/json/input/persons.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/repository/PersonRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/files/json/input/anomalies.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/files/json/input/anomaly-victims.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/controller/AnomalyVictimsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/parser/XMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="20" column="120" lean-forward="false" selection-start-line="20" selection-start-column="120" selection-end-line="20" selection-end-column="120" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/xml/VictimXMLDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/xml/AnomalyXMLDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#851#852#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+            <element signature="e#1059#1060#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/xml/AnomaliesXMLDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="48" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/domain/entities/Anomaly.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="16" column="48" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/files/xml/input/new-anomalies.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/config/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/repository/PlanetRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="47" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/parser/interfaces/ModelParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/io/FIleIOImpl.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.7/gson-2.7.jar!/com/google/gson/Gson.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        <state relative-caret-position="163">
+          <caret line="357" column="18" lean-forward="false" selection-start-line="357" selection-start-column="18" selection-end-line="357" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/service/impls/PlanetServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/service/PlanetService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/controller/PlanetsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1058">
+          <caret line="70" column="16" lean-forward="true" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/parser/ModelParserImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="18" column="62" lean-forward="true" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+        <state relative-caret-position="330">
+          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/parser/JSONParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        <state relative-caret-position="330">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/domain/entities/Planet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.10.3.RELEASE/spring-data-jpa-1.10.3.RELEASE-sources.jar!/org/springframework/data/jpa/repository/Query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-233">
+          <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/repository/AnomalyRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/service/AnomalyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" column="51" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/terminal/Terminal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="68" column="56" lean-forward="true" selection-start-line="68" selection-start-column="56" selection-end-line="68" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/json/PlanetExportJSONDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/modelmapper/modelmapper/1.1.0/modelmapper-1.1.0.jar!/org/modelmapper/PropertyMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/controller/AnomalyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="85" column="32" lean-forward="true" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/domain/dto/json/AnomalyExportJSONDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masdefect/service/impls/AnomalyServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="102" column="61" lean-forward="false" selection-start-line="102" selection-start-column="54" selection-end-line="102" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3702#3913#0" expanded="true" />
+            <element signature="e#3912#3913#0" expanded="true" />
+            <element signature="e#4144#4145#0" expanded="true" />
+            <element signature="e#4171#4172#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

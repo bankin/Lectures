@@ -3,7 +3,6 @@ package com.masdefect.config;
 public class Config {
 
     public static final String SOLAR_SYSTEM_IMPORT_JSON = "/files/json/input/solar-systems.json";
-    public static final String SOLAR_SYSTEM_IMPORT_JSON_LOCAL = "E:\\softuni\\java-databases\\Sept-2017\\Database-Frameworks\\17.DB-Advanced-Exam-Preparation-2\\mas-defect-solution - skeleton\\src\\main\\resources\\files\\json\\input\\solar-systems.json";
 
     public static final String STARS_IMPORT_JSON = "/files/json/input/stars.json";
 

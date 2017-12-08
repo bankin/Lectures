@@ -13,9 +13,10 @@ public class Person implements Serializable {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
+    @Column(nullable = false)
     private String name;
 
-    @ManyToOne(targetEntity = Planet.class)
+    @ManyToOne(targetEntity = Planet.class, optional = false)
     private Planet homePlanet;
 
     @ManyToMany(mappedBy = "victims")

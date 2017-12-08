@@ -16,16 +16,17 @@ public class JSONParser implements FileParser {
     public JSONParser() {
         this.gson = new GsonBuilder()
                         .excludeFieldsWithoutExposeAnnotation()
+                        .setPrettyPrinting()
                         .create();
     }
 
     @Override
-    public <T> T read(Class<T> objectClass, String fileContent) throws IOException, JAXBException {
+    public <T> T read(Class<T> objectClass, String fileContent) throws IOException {
         return this.gson.fromJson(fileContent, objectClass);
     }
 
     @Override
-    public <T> String write(T object, String fileContent) throws IOException, JAXBException {
-        return null;
-    }
+    public <T> String write(T object, String fileContent) throws IOException {
+        return this.gson.toJson(object);
+}
 }

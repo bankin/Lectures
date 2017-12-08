@@ -11,10 +11,10 @@ public class Anomaly implements Serializable {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @ManyToOne(targetEntity = Planet.class)
+    @ManyToOne(targetEntity = Planet.class, optional = false)
     private Planet originPlanet;
 
-    @ManyToOne(targetEntity = Planet.class)
+    @ManyToOne(targetEntity = Planet.class, optional = false)
     private Planet teleportPlanet;
 
     @ManyToMany(targetEntity = Person.class)

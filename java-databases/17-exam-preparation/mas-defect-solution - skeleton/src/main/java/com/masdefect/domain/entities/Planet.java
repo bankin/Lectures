@@ -13,12 +13,13 @@ public class Planet implements Serializable {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
+    @Column(nullable = false)
     private String name;
 
-    @ManyToOne(targetEntity = Star.class)
+    @ManyToOne(targetEntity = Star.class, optional = false)
     private Star sun;
 
-    @ManyToOne(targetEntity = SolarSystem.class)
+    @ManyToOne(targetEntity = SolarSystem.class, optional = false)
     private SolarSystem solarSystem;
 
     @OneToMany(mappedBy = "homePlanet")

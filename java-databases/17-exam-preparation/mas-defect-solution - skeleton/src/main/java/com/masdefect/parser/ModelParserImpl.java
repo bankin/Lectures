@@ -3,6 +3,7 @@ package com.masdefect.parser;
 import com.masdefect.parser.interfaces.ModelParser;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.PropertyMap;
+import org.modelmapper.TypeMap;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -21,7 +22,7 @@ public class ModelParserImpl implements ModelParser {
 
     @Override
     public <S, D> D convert(S source, Class<D> destinationClass, PropertyMap<S, D> propertyMap) {
-        //impl
-        return null;
+        this.modelMapper.addMappings(propertyMap);
+        return this.modelMapper.map(source, destinationClass);
     }
 }

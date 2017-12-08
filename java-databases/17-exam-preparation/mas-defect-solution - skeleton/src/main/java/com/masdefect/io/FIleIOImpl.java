@@ -10,27 +10,18 @@ public class FIleIOImpl implements FileIO {
 
     @Override
     public String read(String file) throws IOException {
-        StringBuilder contents = new StringBuilder();
-        String line = null;
-
-        try {
-            FileReader fileReader = new FileReader(file);
-            BufferedReader bufferedReader = new BufferedReader(fileReader);
-
-            while((line = bufferedReader.readLine()) != null) {
-                contents.append(line);
+        StringBuilder fileContent = new StringBuilder();
+        try (
+                InputStream inputStream = getClass().getResourceAsStream(file);
+                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream))
+        ) {
+            String line;
+            while ((line = bufferedReader.readLine()) != null) {
+                fileContent.append(line);
             }
-
-            bufferedReader.close();
-        }
-        catch(FileNotFoundException ex) {
-            System.out.println("Unable to open file '" + file + "'");
-        }
-        catch(IOException ex) {
-            System.out.println("Error reading file '" + file + "'");
         }
 
-        return contents.toString();
+        return fileContent.toString();
     }
 
     @Override
